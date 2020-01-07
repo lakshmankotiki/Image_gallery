@@ -41,3 +41,8 @@ button {
   float: left;
   cursor: pointer;
 }
+
+.me-img {
+  width: 640px;
+  height: 500px;
+}

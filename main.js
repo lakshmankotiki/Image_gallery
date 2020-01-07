@@ -1,14 +1,13 @@
-const displayedImage = document.querySelector('.displayed-img');
+const displayedImage = document.querySelectorAll('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
 const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Looping through images */
-var imgSelector = document.querySelectorAll("img");
-for(var i=1;i<imgSelector.length;i++) {
-    document.querySelectorAll("img")[i].addEventListener("click", function() {
-        window.alert("clicked man...");
+for(var i=0;i<displayedImage.length;i++) {
+    displayedImage[i].addEventListener("click", function() {
+        window.console.log(this.className.slice(13, 18));
     });
 }
 
