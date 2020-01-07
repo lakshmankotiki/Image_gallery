@@ -16,3 +16,9 @@ newImage.setAttribute('src', "");
 thumbBar.appendChild(newImage);
 
 /* Wiring up the Darken/Lighten button */
+document.querySelector(".dark").addEventListener("click", function(event) {
+    var buttonText = document.querySelector(".dark").innerHTML;
+    if(buttonText === "darken") {
+
+    }
+});
