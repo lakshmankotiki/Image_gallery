@@ -1,7 +1,7 @@
 # Image_gallery
 Sample Image gallery example using JavaScript and DOM
 
-#Steps
+# Steps
 1. Clone the repository into your local system
 2. Open index.html file
 3. Click on the any image which you want to preview, the defaulted image replaces with newly selected image
